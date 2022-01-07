@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.page_area{
+    display: flex;
+    width: 100%;
+}
+.fitur_area{
+    width: 19%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+.fitur_area label{
+    font-size: 30px;
+}
+.fitur_area button{
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F39E3A;
+    color: black;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#logout{
+    background-color: #C20000;
+    margin-top: 90%;
+    color: white;
+}
+
+.content_area{
+    margin-left: 21%;
+    width: 99%;
+    height: 100%;
+}
+.search{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+input[type=search]{
+    margin-top: 2%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid ;
+    width: 100%;
+}
+.menu{
+    display: flex;
+}
+#daftar_buku{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    width: 30%;
+    height: 150px;
+    margin-right: 1%;
+    background-image: linear-gradient(to right, #EC8B18, #F7A84B);
+    text-align: center;
+    color: white;
+}
+h1{
+    margin-top: 18%;
+}
+#data_anggota{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    width: 30%;
+    height: 150px;
+    margin-right: 1%;
+    background-image: linear-gradient(to right, #1B71C1, #329AFA);
+    text-align: center;
+    color: white;
+}
+#daftar_pinjaman{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    width: 30%;
+    height: 150px;
+    margin-right: 3%;
+    background-image: linear-gradient(to right, #189FCA, #70D6F5);
+    text-align: center;
+    color: white;
+}
+#list_buku{
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+}
+#buku{
+    font-size: 20px;
+    float: right;
+}
+
+#form{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 380px;
+    margin-top: 10%;
+    background-image: linear-gradient(to right, #EC8B18, #F7A84B);
+}
+#form_tambah{
+    margin-left: 23%;
+    margin-top: 20px;
+}
+h2{
+    margin-left: 30px;
+}
+img{
+    margin-right: 13%;
+    height: 25px;
+}
+input[type="text"]{
+    width: 400px;
+    height: 30px;
+}
+#btn_tambah{
+    margin-left: 80%;
+    margin-top: 4%;
+    background-color: #0094C2;
+    width: 80px;
+    height: 25px;
+    color: white;
+}
+#buku button{
+    background-color: #0094C2;
+    width: 80px;
+    height: 30px;
+    float: right;
+    color: white;
+    margin-right: 35px;
+}
